@@ -32,7 +32,7 @@ namespace Employees
             emp.Name = textbox1.Text;
             emp.Age = int.Parse(textbox2.Text);
             emp.Country = combobox.Text;
-
+            XML.savedata(emp, "test");
         }
 
         

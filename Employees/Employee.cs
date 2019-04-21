@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Employees
 {
     [Serializable]
-    class Employee
+    public class Employee
     {
         int age;
         string name;
